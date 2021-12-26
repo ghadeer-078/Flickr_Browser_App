@@ -19,6 +19,7 @@ import retrofit2.Response
 class MainActivity : AppCompatActivity() {
 
     lateinit var photosList: PhotoCollection
+
     lateinit var photosRecyclerView: RecyclerView
     lateinit var searchEditText: EditText
     lateinit var searchButton: Button

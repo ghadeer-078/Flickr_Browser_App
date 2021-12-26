@@ -8,7 +8,7 @@ import retrofit2.http.Query
 interface APIInterface {
 
     companion object {
-        const val apiKey = "4a3f80cf9fdd204a30faa774deaa0bd9"
+        const val apiKey = "6cefe3f2452eaf0d53baf61c1e3ee3a0"
     }
 
     @GET("rest/?method=flickr.photos.search&api_key=$apiKey&format=json&nojsoncallback=1")
